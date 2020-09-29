@@ -226,7 +226,7 @@ WSON-8-1EP_6x5mm_P1.27mm_E3.4x4.3mm:
 WSON-8-1EP_4x4mm_P0.8mm_EP2.2x3mm:
   device_type: 'WSON'
   library: Package_SON
-  size_source: 'https://www.ti.com/lit/ds/symlink/lp2987.pdf#page=28' # NGN0008A
+  size_source: 'https://www.ti.com/lit/ds/symlink/lp2987.pdf#page=26' # NGN0008A
   ipc_class: 'qfn_pull_back'
   body_size_x:
     minimum: 3.9
@@ -273,11 +273,11 @@ WSON-8-1EP_4x4mm_P0.8mm_EP1.98x3mm:
   size_source: 'https://www.ti.com/lit/ds/symlink/lm5017.pdf#page=34'
   ipc_class: 'qfn' #'qfn' | 'qfn_pull_back'
   body_size_x:
-    minimum: 3.9
-    maximum: 4.1
+    nominal: 4.0
+    tolerance: 0.1
   body_size_y:
-    minimum: 3.9
-    maximum: 4.1
+    nominal: 4.0
+    tolerance: 0.1
   overall_height:
     maximum: 0.8
 
